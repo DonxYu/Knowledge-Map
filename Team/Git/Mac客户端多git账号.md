@@ -74,7 +74,9 @@
    $ ssh-add ~/.ssh/id_rsa
    ```
 
-   比如:需要分别添加id_rsa_frank和id_rsa_didi。 ***特别注意，如果后边出行权限问题：Permission denied（Publickey),很可能是私钥没有导入ssh-agent中***
+   比如:需要分别添加id_rsa_frank和id_rsa_didi。 
+
+   ***特别注意，如果后边出行权限问题：Permission denied（Publickey),很可能是私钥没有导入ssh-agent中***
 
    ## 4、添加新的SSH keys到Git账号的SSH设置中
 
@@ -118,7 +120,7 @@
 
    ```
    $ ssh -T git@github.com
-   Hi BeginMan! You've successfully authenticated, but GitHub does not provide shell access. $ ssh -T git@xxxxxx.com
+   Hi Frank! You've successfully authenticated, but GitHub does not provide shell access.
    Welcome to GitLab, frank!
    ```
 
